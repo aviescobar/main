@@ -33,3 +33,6 @@ def run_server():
 
             frame_data = data[:msg_size]
             data = data[msg_size:]
+
+
+            # Decodificar la imagen y redimensionarla
