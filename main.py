@@ -38,6 +38,9 @@ def run_server():
             # Decodificar la imagen y redimensionarla
             img = cv2.imdecode(np.frombuffer(frame_data, dtype=np.uint8), cv2.IMREAD_COLOR)
             img_resized = cv2.resize(img, (800, 450))  # Ajusta el tamaño (ancho, alto)
+
+
+            # Mostrar la imagen redimensionada
             
 
 
