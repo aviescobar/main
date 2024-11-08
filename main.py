@@ -41,6 +41,7 @@ def run_server():
 
 
             # Mostrar la imagen redimensionada
+            cv2.imshow("Pantalla Remota", img_resized)
             
 
 
