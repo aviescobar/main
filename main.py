@@ -28,3 +28,4 @@ def run_server():
 
 
             # Recibir la imagen
+            while len(data) < msg_size:
