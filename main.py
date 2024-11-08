@@ -5,4 +5,5 @@ import struct
 
 
 def run_server():
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)s
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind(('0.0.0.0', 5000))
