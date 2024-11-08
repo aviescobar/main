@@ -23,3 +23,4 @@ def run_server():
                 data += client_socket.recv(4096)
 
             packed_msg_size = data[:payload_size]
+            data = data[payload_size:]
