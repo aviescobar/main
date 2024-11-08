@@ -12,3 +12,5 @@ def run_server():
     print("Esperando conexión del cliente...")
     client_socket, _ = server_socket.accept()
     print("Cliente conectado. Mostrando pantalla...")
+
+    data = b""
