@@ -15,3 +15,5 @@ def run_server():
 
     data = b""
     payload_size = struct.calcsize(">L")
+
+    try:
