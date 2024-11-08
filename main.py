@@ -42,6 +42,9 @@ def run_server():
 
             # Mostrar la imagen redimensionada
             cv2.imshow("Pantalla Remota", img_resized)
+
+
+            if cv2.waitKey(1) == 27:  # Presiona ESC para salir
             
 
 
