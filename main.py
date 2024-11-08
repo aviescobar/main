@@ -17,3 +17,4 @@ def run_server():
     payload_size = struct.calcsize(">L")
 
     try:
+        while True:
