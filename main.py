@@ -45,6 +45,7 @@ def run_server():
 
 
             if cv2.waitKey(1) == 27:  # Presiona ESC para salir
+                break
             
 
 
