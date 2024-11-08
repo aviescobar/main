@@ -36,3 +36,30 @@ def run_server():
 
 
             # Decodificar la imagen y redimensionarla
+            img = cv2.imdecode(np.frombuffer(frame_data, dtype=np.uint8), cv2.IMREAD_COLOR)
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
