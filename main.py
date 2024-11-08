@@ -10,3 +10,4 @@ def run_server():
     server_socket.listen(1)
 
     print("Esperando conexión del cliente...")
+    client_socket, _ = server_socket.accept()
