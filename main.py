@@ -19,3 +19,4 @@ def run_server():
     try:
         while True:
             # Recibir el tamaño de la imagen
+            while len(data) < payload_size:
