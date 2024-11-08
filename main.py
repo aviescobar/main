@@ -14,3 +14,4 @@ def run_server():
     print("Cliente conectado. Mostrando pantalla...")
 
     data = b""
+    payload_size = struct.calcsize(">L")
