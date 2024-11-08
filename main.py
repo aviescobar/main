@@ -20,3 +20,4 @@ def run_server():
         while True:
             # Recibir el tamaño de la imagen
             while len(data) < payload_size:
+                data += client_socket.recv(4096)
